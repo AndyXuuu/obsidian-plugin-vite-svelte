@@ -1,31 +1,32 @@
 {
-    "name": "obsidian-svelte-starter",
-    "version": "1.0.3",
-    "description": "A plugin development template for devs who want to use svelte in Obsidian.",
-    "main": "main.js",
-    "scripts": {
-        "lint": "eslint . --ext .ts",
-        "dev": "npm run lint && vite build --watch",
-        "build": "npx svelte-check && vite build",
-        "bumpversion": "node version-bump.mjs && git add manifest.json versions.json"
-    },
-    "keywords": [],
-    "author": "Quorafind",
-    "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^1.0.1",
-        "@tsconfig/svelte": "^3.0.0",
-        "@types/node": "^16.11.6",
-        "@typescript-eslint/eslint-plugin": "5.32.0",
-        "@typescript-eslint/parser": "5.32.0",
-        "builtin-modules": "3.3.0",
-        "eslint": "^8.21.0",
-        "eslint-plugin-svelte3": "^4.0.0",
-        "obsidian": "latest",
-        "svelte": "^3.49.0",
-        "svelte-check": "^2.8.0",
-        "svelte-preprocess": "^4.10.7",
-        "tslib": "2.4.0",
-        "typescript": "4.7.4",
-        "vite": "^3.0.0"
-    }
+  "name": "threesome-obsidian",
+  "version": "1.0.0",
+  "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "dev": "npm run lint && vite build --watch",
+    "build": "npx svelte-check && vite build",
+    "bumpversion": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.6",
+    "@tsconfig/svelte": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "autoprefixer": "^10.4.14",
+    "builtin-modules": "3.3.0",
+    "eslint": "^8.21.0",
+    "obsidian": "latest",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^4.2.2",
+    "svelte-check": "latest",
+    "svelte-preprocess": "latest",
+    "tailwindcss": "^3.3.2",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4",
+    "vite": "^4.4.5"
+  }
 }
